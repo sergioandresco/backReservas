@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from apisReserve.views import create_event, get_all_events
+from apisReserve.views import create_event, get_all_events, create_reserv
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('create-event/', create_event, name='create_event'),
     path('all-events/', get_all_events, name='get_all_events'),
+    path('create-reserv/', create_reserv, name='create_reserv'),
 ]
