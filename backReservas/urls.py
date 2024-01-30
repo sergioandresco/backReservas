@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from apisReserve.views import create_event
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('create-event/', create_event, name='create_event'),
 ]

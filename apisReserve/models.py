@@ -13,6 +13,9 @@ class Events(models.Model):
     created = models.DateTimeField(auto_now_add=True, verbose_name="Date of Create")
     modified = models.DateTimeField(auto_now_add=True, verbose_name="Date of Modified")
     
+    def __str__(self):
+        return self.name
+    
 # Luego definir las clases que hacen referencia a Places y Events
 class Reservs(models.Model):
     STATE_CHOICES = (
@@ -21,7 +24,7 @@ class Reservs(models.Model):
     )
     
     user = models.ForeignKey(User, on_delete=models.CASCADE, verbose_name="Usuario")
-    reservation_date = models.DateField()
+    reservation_date = models.DateField(auto_now_add=True)
     state = models.CharField(max_length=10, choices=STATE_CHOICES, default='activ', verbose_name="State")
     places_reserv = models.IntegerField(verbose_name="Number_of_places_reserv", default=0, help_text="Number of places reserv")
     event = models.ForeignKey(Events, on_delete=models.CASCADE, verbose_name="Event")
