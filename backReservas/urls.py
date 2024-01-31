@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from apisReserve.views import create_event, get_all_events, create_reserv, register_user, login_user
+from apisReserve.views import create_event, get_all_events, create_reserv, register_user, login_user, CustomTokenObtainPairView
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,4 +24,5 @@ urlpatterns = [
     path('create-reserv/', create_reserv, name='create_reserv'),
     path('create-user/', register_user, name='create_user'),
     path('login/', login_user, name='login'),
+    path('auth/', CustomTokenObtainPairView.as_view()),
 ]
