@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Events, Reservs
+from .models import Events, Reservs, User
 
 class EventSerializer(serializers.ModelSerializer):
     class Meta:
@@ -17,3 +17,15 @@ class ReservSerializer(serializers.ModelSerializer):
     class Meta:
         model = Reservs
         fields = ['places_reserv', 'event', 'user']
+        
+
+class UserSerializer(serializers.ModelSerializer):
+    password = serializers.CharField(write_only=True)
+
+    class Meta:
+        model = User
+        fields = ['username', 'first_name', 'last_name','email', 'password']
+
+    def create(self, validated_data):
+        user = User.objects.create_user(**validated_data)
+        return user
