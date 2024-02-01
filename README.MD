@@ -36,7 +36,7 @@ All endpoints are configured with the route http://localhost:8000/
 <h2>Below are screenshots of the tests of all the APIS</h2>
 
 <p>Link to gallery</p>
-[Go web -› https://postimg.cc/gallery/GmNB6Tt](https://postimg.cc/gallery/GmNB6Tt)
+[Go web -› https://postimg.cc/gallery/GmNB6Tt]
 
 <img src="https://i.postimg.cc/Mf8fjKcp/Captura-de-pantalla-2024-02-01-010701.png" alt="api1"/>
 <img src="https://i.postimg.cc/Yj1WBgVG/Captura-de-pantalla-2024-02-01-010802.png" alt="api2"/>
