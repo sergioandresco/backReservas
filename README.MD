@@ -35,7 +35,7 @@ All endpoints are configured with the route http://localhost:8000/
 
 <h2>Below are screenshots of the tests of all the APIS</h2>
 
-<img src="https://i.postimg.cc/Mf8fjKcp/Captura-de-pantalla-2024-02-01-010701.png" alt="api1"/>
+<img src="https://i.postimg.cc/Mf8fjKcp/Captura-de-pantalla-2024-02-01-010701.png" alt="api1" height="200" width="200"/>
 <img src="https://i.postimg.cc/Yj1WBgVG/Captura-de-pantalla-2024-02-01-010802.png" alt="api2"/>
 <img src="https://i.postimg.cc/K3rk7SLr/Captura-de-pantalla-2024-02-01-010826.png" alt="api3"/>
 <img src="https://i.postimg.cc/gxMhBW7g/Captura-de-pantalla-2024-02-01-011126.png" alt="api4"/>
