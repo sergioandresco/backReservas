@@ -12,7 +12,7 @@ For the creation of APIS, the architecture that was used was:
 - URL</p>
 
 <p>The ER model of the database is as follows</p>
-<img src="https://i.postimg.cc/k53hPTdg/Reservas-De-Eventos-drawio.png" alt="DB" height="60" width="60"/>
+<img src="https://i.postimg.cc/k53hPTdg/Reservas-De-Eventos-drawio.png" alt="DB"/>
 
 ### Requirements:
     Python: 3.9.0
