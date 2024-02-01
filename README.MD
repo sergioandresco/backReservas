@@ -1,5 +1,6 @@
 <h1 align="center">Backend of the Reservations application 👨‍💻</h1>
-<h2>The backend is developed with Django and Django Rest Framework for the construction of REST APIS</h2>
+<h2>The backend is developed with Django and Django Rest Framework for the construction of REST APIS with PostgreSQL database</h2>
+<h3>The entire updated project is located in the Master branch</h3>
 
 ### Requirements:
     Python: 3.9.0
@@ -8,6 +9,18 @@
     It is recommended to use Pyenv to be able to change Python versions
 
 Create database backendReservas in PostgreSQL
+
+All endpoints are configured with the route http://localhost:8000/
+
+### All endpoints created were:
+    http://localhost:8000/create-event/
+    http://localhost:8000/all-events/
+    http://localhost:8000/all-reserv/
+    http://localhost:8000/all-user/
+    http://localhost:8000/create-reserv/
+    http://localhost:8000/create-user/
+    http://localhost:8000/auth/
+
 
 <h2>PYENV IN MAC  <img src="https://user-images.githubusercontent.com/43445037/217332541-e1b3151a-15b6-495d-92cc-daa31feeb408.png" alt="logo" height="60" width="60"/></h2> 
 
@@ -25,8 +38,6 @@ Create database backendReservas in PostgreSQL
     
 ### Run server
     python manage.py runserver
-
-All endpoints are configured with the route http://localhost:8000/
 
 ### Create .env file
     DATABASE_ENGINE='django.db.backends.postgresql'
