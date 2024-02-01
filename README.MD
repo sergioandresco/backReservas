@@ -56,12 +56,6 @@ All endpoints are configured with the route http://localhost:8000/
 ### Install dependences
     pip install -r requirements.txt
 
-### Create superuser
-    python manage.py createsuperuser
-    
-### Run server
-    python manage.py runserver
-
 ### Create .env file
     DATABASE_ENGINE='django.db.backends.postgresql'
     DATABASE_NAME=backendReservas
@@ -72,11 +66,16 @@ All endpoints are configured with the route http://localhost:8000/
     
     ALLOWED_HOSTS='*'
 
+### Create and run migrations
+    python manage.py makemigrations
+    python manage.py migrate
+
 ### Create superuser
     python manage.py createsuperuser
     
 ### Run server
     python manage.py runserver
+
 
 <h2>PYENV IN WINDOWS  <img src="https://user-images.githubusercontent.com/43445037/217332759-ea2942d8-ef6b-412f-b86b-b21e174887cc.png" alt="logo" height="60" width="60"/></h2>
 
@@ -130,6 +129,10 @@ All endpoints are configured with the route http://localhost:8000/
     DATABASE_PORT=5432
     
     ALLOWED_HOSTS='*'
+
+### Create and run migrations
+    python manage.py makemigrations
+    python manage.py migrate
 
 ### Create superuser
     python manage.py createsuperuser
