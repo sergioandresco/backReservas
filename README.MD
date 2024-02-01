@@ -33,6 +33,14 @@ All endpoints are configured with the route http://localhost:8000/
     http://localhost:8000/create-user/
     http://localhost:8000/auth/
 
+<h2>Below are screenshots of the tests of all the APIS</h2>
+
+<img src="https://i.postimg.cc/Mf8fjKcp/Captura-de-pantalla-2024-02-01-010701.png" alt="api1"/>
+<img src="https://i.postimg.cc/Yj1WBgVG/Captura-de-pantalla-2024-02-01-010802.png" alt="api2"/>
+<img src="https://i.postimg.cc/K3rk7SLr/Captura-de-pantalla-2024-02-01-010826.png" alt="api3"/>
+<img src="https://i.postimg.cc/gxMhBW7g/Captura-de-pantalla-2024-02-01-011126.png" alt="api4"/>
+<img src="https://i.postimg.cc/2qMZrxrv/Captura-de-pantalla-2024-02-01-011307.png" alt="api5"/>
+<img src="https://i.postimg.cc/ZCS6Wj3x/Captura-de-pantalla-2024-02-01-011419.png" alt="api6"/>
 
 <h2>PYENV IN MAC  <img src="https://user-images.githubusercontent.com/43445037/217332541-e1b3151a-15b6-495d-92cc-daa31feeb408.png" alt="logo" height="60" width="60"/></h2> 
 
