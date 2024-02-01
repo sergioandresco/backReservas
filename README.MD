@@ -2,6 +2,15 @@
 <h2>The backend is developed with Django and Django Rest Framework for the construction of REST APIS with PostgreSQL database</h2>
 <h3>The entire updated project is located in the Master branch</h3>
 
+<p>The backend is developed to manage different APIS, with methods such as POST, GET, and PUT, and at the same time the database is managed with the Django ORM, the architecture that is managed is through the HTTP protocol, for sending requests and data to the endpoints created in development.
+
+For the creation of APIS, the architecture that was used was:
+
+- DB Model
+- Serializer
+- View
+- URL</p>
+
 ### Requirements:
     Python: 3.9.0
     PostgreSQL
